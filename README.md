@@ -1,3 +1,6 @@
+# Purpose:
+Web app that allows trainers to build workouts and programs on a schedule for other users to view and updates status on. Individuals can use too to build their own workouts and program schedules.
+
 ### Want full control over everything in this template?
 We've created a new project called [**stackmix**](https://github.com/roxiness/stackmix). It's an experimental CLI that let's you pick and mix all features in a Routify template! Get started with `npx stackmix`
 
