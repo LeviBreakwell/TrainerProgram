@@ -11,9 +11,7 @@
     console.log(currentUser);
 </script>
 
-<main
-    class="w-full flex justify-between items-center bg-gray-900 p-4 text-white"
->
+<main class="w-full flex justify-between items-center nav p-4 text-white">
     <div>
         <a href={$url('../')}>
             <img src="/assets/images/logo.png" alt="logo" />
@@ -25,3 +23,9 @@
         <Menu user={$currentUser.photoURL} on:confirmLogout={logout} />
     {/if}
 </main>
+
+<style>
+    .nav {
+        background-color: #222222;
+    }
+</style>
